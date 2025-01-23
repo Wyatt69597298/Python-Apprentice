@@ -22,12 +22,9 @@ tina = turtle.Turtle()                  # Create a turtle named tina
 tina.pencolor('green')
 tina.forward(50)
 tina.left(50)
-print('Loop Iteration', 6)
+tina.right
 
-tina.forward(9)
-tina.color('blue')
-tina.begin_fill()
-tina.circle(101, steps=50)
-tina.end_fill()
 
-turtle.exitonclick()                    # Close the window when we click on it
+
+
+
