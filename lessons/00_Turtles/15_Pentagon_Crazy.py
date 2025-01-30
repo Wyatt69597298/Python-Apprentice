@@ -27,9 +27,9 @@ myTurtle.width(1)
 sides = 5
 angle = 360 / sides
 
-for i in range(360):
+for i in range(1000):
     if i == 100:
-        myTurtle.width(2)
+        myTurtle.width(0)
     if i == 200:
         myTurtle.width(3)
     myTurtle.pencolor(getNextColor(i))

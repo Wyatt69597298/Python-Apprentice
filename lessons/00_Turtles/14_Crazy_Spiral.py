@@ -24,8 +24,8 @@ def make_a_shape(t):
 # The second ... in the for loop should be the number of shapes you want to make, 
 # for example 100, or it could use islice(), cycle(), or a list of numbers.
 
-num_shapes = ...
+num_shapes = 2
 
-for i in range(...):
+for i in range(100):
     make_a_shape(t)
     t.right(360/num_shapes)

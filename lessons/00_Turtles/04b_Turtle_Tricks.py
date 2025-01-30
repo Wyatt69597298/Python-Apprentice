@@ -55,17 +55,31 @@ tina.right(180)
 tina.write('GET DOWN MR. PRESIDIENT')
 
 
-tina.speed(2)
+tina.speed(0)
 tina.right(59)
 tina.forward(200)
 tina.left(59)
 tina.forward(100)
 tina.left(89)
+tina.forward(500)
+tina.left(90)
+tina.forward(469)
+tina.left(90)
+tina.forward(515)
+tina.left(90)
+tina.forward(500)
+for i in range(24):
+    tina.left(90)
     tina.forward(500)
+tina.write('AAAAAAAAHHHHHHHH')
+
+
+
+for i in range(99):
     tina.left(90)
-    tina.forward(469)
-    tina.left(90)
-    tina.forward(515)
+    tina.forward(500)
+tina.write('...')
+for i in range(102):
     tina.left(90)
     tina.forward(500)
 

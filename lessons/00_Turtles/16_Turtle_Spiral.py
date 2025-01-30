@@ -12,6 +12,7 @@ import turtle
 # Returns a random color!
 def getRandomColor():
     return "#%06X" % (random.randint(0, 0xFFFFFF))
+turtle.setup (width=600, height=600)
 
 
 window = turtle.Screen()
@@ -30,7 +31,7 @@ myTurtle.speed(0)
 myTurtle.color("green")
 
 # Use a loop to repeat the code below 50 times
-for i in range(50):
+for i in range(100):
 
     # Set the turtle color to a random color
     myTurtle.pencolor(getRandomColor())
