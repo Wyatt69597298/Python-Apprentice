@@ -78,7 +78,7 @@ tina.write('AAAAAAAAHHHHHHHH')
 for i in range(99):
     tina.left(90)
     tina.forward(500)
-tina.write('...')
+tina.write('I said, GET DOWN MR PRESIDIENT')
 for i in range(102):
     tina.left(90)
     tina.forward(500)

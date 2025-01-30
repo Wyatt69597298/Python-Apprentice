@@ -14,13 +14,18 @@ turtle.setup (width=600, height=600)    # Set the size of the window
 tina = turtle.Turtle()                  # Create a turtle named tina
 
 tina.shape('turtle')                    # Set the shape of the turtle to a turtle
-tina.speed(0)                           # Make the turtle move as fast, but not too fast. 
+tina.speed(0)         
+                  # Make the turtle move as fast, but not too fast. 
+tina.pencolor('brown')
 
-tina.begin_fill()
 for i in range(100):
     tina.forward(250)                       # Move tina forward by the forward distance
     tina.left(500)  
-tina.end_fill()                              # Turn tina left by the left turn
+for i in range(100):
+    tina.forward(15)
+    tina.left(10)
+
+                         # Turn tina left by the left turn
 
 
 
