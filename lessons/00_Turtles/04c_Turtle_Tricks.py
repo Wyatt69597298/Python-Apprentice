@@ -44,6 +44,15 @@ tina.circle(101, steps=55)
 tina.end_fill()
 tina.penup()
 tina.goto(50,0)
+
+
+sides = 10
+angles = 40
+for i in range(90):
+    tina.left(sides)
+    tina.forward(angles) 
+
+
 turtle.exitonclick()                    # Close the window when we click on it
 
 
