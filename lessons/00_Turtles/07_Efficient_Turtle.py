@@ -14,15 +14,16 @@ tina = turtle.Turtle()                  # Create a turtle named tina
 
 tina.shape('turtle')                    # Set the shape of the turtle to a turtle
 tina.speed(0)  
+colors = ["red", "orange", "green", "blue", "purple"]
 
 def draw_polygon(sides):
 
     angle = 360/sides #angle according to number of sides
 
     for i in range(sides):    # loop according to number of sides
-        tina.forward(50)                 # move tina forward
+        tina.forward(10)                 # move tina forward
         tina.left(angle)                                # turn tin left by angle
-for i in range(3, 21):
+for i in range(3, 1000):
     draw_polygon(i)
 
 turtle.exitonclick()

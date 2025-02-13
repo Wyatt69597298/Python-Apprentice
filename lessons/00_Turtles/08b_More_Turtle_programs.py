@@ -8,3 +8,28 @@ Then change the code so that the turtle has a different image ( look in the 'ima
 directory ) and moves to the corners of the screen in a square pattern. 
 """
 
+import turtle
+turtle.setup (width=600, length=600)
+tina = turtle.Turtle()
+tina.shape('turtle')
+tina.speed(0)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+turtle.extoniclick()

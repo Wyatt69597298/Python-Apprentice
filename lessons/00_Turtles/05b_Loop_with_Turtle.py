@@ -17,13 +17,18 @@ tina.shape('turtle')                    # Set the shape of the turtle to a turtl
 tina.speed(0)         
                   # Make the turtle move as fast, but not too fast. 
 tina.pencolor('brown')
+tina.speed(0)
 
-for i in range(100):
-    tina.forward(250)                       # Move tina forward by the forward distance
-    tina.left(500)  
-for i in range(100):
-    tina.forward(15)
-    tina.left(10)
+def draw_polygon(sides):
+
+
+    angle = 10000/sides
+    for i in range(sides):
+        tina.backward(4)
+    tina.left(angle)
+for i in range(1, 1000):
+
+    draw_polygon(i)
 
                          # Turn tina left by the left turn
 
