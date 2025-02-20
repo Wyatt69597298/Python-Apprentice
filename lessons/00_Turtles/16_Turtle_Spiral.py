@@ -25,13 +25,13 @@ myTurtle = turtle.Turtle()
 myTurtle.shape("turtle")
 
 # Set your turtle's speed
-myTurtle.speed(0)
+myTurtle.speed(2)
 
 # Set your turtle's color
 myTurtle.color("green")
 
 # Use a loop to repeat the code below 50 times
-for i in range(100):
+for i in range(1000):
 
     # Set the turtle color to a random color
     myTurtle.pencolor(getRandomColor())
