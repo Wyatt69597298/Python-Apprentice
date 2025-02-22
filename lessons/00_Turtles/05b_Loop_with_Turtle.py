@@ -22,7 +22,7 @@ tina.speed(0)
 def draw_polygon(sides):
 
 
-    angle = 10000/sides
+    angle = 876/sides
     for i in range(sides):
         tina.backward(4)
     tina.left(angle)

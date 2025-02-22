@@ -13,14 +13,16 @@ import turtle
 turtle.setup (width=600, height=600)
 tina = turtle.Turtle()
 tina.shape('turtle')
-tina.speed(0)
-tina.color('blue')
-tina.begin_fill()
-for i in range(60):
-    tina.left(30)
-    tina.forward(60)
-tina.end_fill()
+for i in range(4):
+    tina.forward(90)
+    tina.right(90)
 
+tina.left(45)
+tina.forward(65)
+tina.right(91)
+tina.forward(62)
+tina.penup()
+tina.forward(1000)
 
 turtle.exitonclick()
 
