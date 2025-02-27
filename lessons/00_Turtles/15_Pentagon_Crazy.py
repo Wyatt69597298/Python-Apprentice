@@ -14,25 +14,25 @@ def getNextColor(i):
     return colors[i % len(colors)]
 
 window = turtle.Screen()
-window.bgcolor("white")
+window.bgcolor("black")
 window.setup(width=600, height=600, startx=0, starty=0)
 
-colors = ("red", "blue", "green", "yellow", "pink")
+colors = ("red", "blue", "green", "yellow", "orange")
 
 
 myTurtle = turtle.Turtle()
 myTurtle.shape("turtle")
 myTurtle.speed(0)
-myTurtle.width(12)
+myTurtle.width(1)
 
 sides = 5
 angle = 360 / sides
 
 for i in range(1000):
     if i == 100:
-        myTurtle.width(24)
+        myTurtle.width(1)
     if i == 200:
-        myTurtle.width(36)
+        myTurtle.width(1)
     myTurtle.pencolor(getNextColor(i))
     myTurtle.forward(i)
     myTurtle.right(angle + 1)

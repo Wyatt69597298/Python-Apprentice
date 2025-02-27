@@ -14,6 +14,13 @@ tina = turtle.Turtle()
 tina.shape('turtle')
 tina.speed(0)
 
+for i in range(1000):
+    tina.left(45)
+    tina.forward(360)
+
+
+
+ 
 
 
 

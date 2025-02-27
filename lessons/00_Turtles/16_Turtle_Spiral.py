@@ -25,7 +25,7 @@ myTurtle = turtle.Turtle()
 myTurtle.shape("turtle")
 
 # Set your turtle's speed
-myTurtle.speed(2)
+myTurtle.speed(0)
 
 # Set your turtle's color
 myTurtle.color("green")
