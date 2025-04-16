@@ -56,7 +56,7 @@ elif age < 20:
 elif age < 65:
     messagebox.showinfo('What you are', "You are a senior")
 elif age < 10000000000000000000000000000000000000:
-    messagebox.showinfo('What you are', "You are a sus and old unc like Collin")
+    messagebox.showinfo('What you are', "You are a sus old 🙈 unc like Collin")
 # 6window.mainloop()  # Keeps the window open
 
 

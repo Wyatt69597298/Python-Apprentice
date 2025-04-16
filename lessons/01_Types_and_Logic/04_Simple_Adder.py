@@ -23,14 +23,14 @@ window.withdraw()
 
 # Ask the user for the first number  
 
-first = simpledialog.askinteger("1-69 numbers?", "BRUH")
+first = simpledialog.askinteger("What adds to 69?", "CHICKEN JOCKEY")
 
 # Ask the user for the second number
 
-second = simpledialog.askinteger("12313", "get out" 
+second = simpledialog.askinteger("SECOND number", "I AM STEVE") 
 
 # Display the sum of the two numbers 
 
-
+messagebox.showinfo("chicken", first+second)
 
 # Keep the window open
