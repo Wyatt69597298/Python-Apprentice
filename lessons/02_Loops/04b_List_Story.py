@@ -16,7 +16,17 @@ story.append(words[2])
 story.append(words[7])
 story.append(words[9])
 story.append(words[7])
-
+story.append(words[1])
+story.append(words[14])
+story.append(words[7])
+story.append(words[3])
+story.append(words[15])
+story.append(words[10])
+story.append(words[8])
+story.append(words[4])
+story.append(words[10])
+story.append(words[17])
+story.append(words[18])
 # Create a story using the words in the list
 
 # Display the story to the user
